@@ -1,0 +1,7 @@
+name: LobbyPlugin
+main: io.github.hielkemaps.lobbyplugin.Main
+version: 1.0.0
+author: Hielke
+api-version: '1.20'
+depend:
+  - CommandAPI
