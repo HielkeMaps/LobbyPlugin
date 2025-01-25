@@ -1,0 +1,6 @@
+launchpad:
+  plate: OAK_PRESSURE_PLATE
+  base: GOLD_BLOCK
+  strength:
+    forward: 3.0
+    upward: 1.2
