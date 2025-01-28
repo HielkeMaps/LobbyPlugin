@@ -75,7 +75,7 @@ public class EventListener implements Listener {
         Player player = e.getPlayer();
 
         // Teleport to spawn and set flight
-        player.teleport(player.getWorld().getSpawnLocation());
+        player.teleport(player.getWorld().getSpawnLocation().add(0.5,0,0.5));
         player.setAllowFlight(true);
         player.setGameMode(GameMode.ADVENTURE);
 
